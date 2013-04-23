@@ -62,4 +62,4 @@ file "#{WS_HOME}/.vimrc.local" do
   not_if { File.exists?("#{WS_HOME}/.vimrc.local") }
 end
 
-wel-station_bash_it_custom_plugin "vim-source_tmux_config.bash"
+wel_station_bash_it_custom_plugin "vim-source_tmux_config.bash"

@@ -6,7 +6,7 @@ include_recipe "wel-station::git"
 brew "rbenv"
 brew "ruby-build"
 
-wel-station_bash_it_enable_feature "plugins/rbenv"
+wel_station_bash_it_enable_feature "plugins/rbenv"
 
 node["rbenv"]["rubies"].each do |version, options|
   rbenv_ruby_install version do
