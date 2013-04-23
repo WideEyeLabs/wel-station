@@ -19,7 +19,7 @@ end
 
 template node['bash_it']['bashrc_path'] do
   source "bash_it/bashrc.erb"
-  cookbook 'wel-station'
+  cookbook 'wel_station'
   owner WS_USER
   mode "0777"
 end

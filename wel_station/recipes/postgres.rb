@@ -1,5 +1,5 @@
-include_recipe "wel-station::homebrew"
-include_recipe "wel-station::increase_shared_memory"
+include_recipe "wel_station::homebrew"
+include_recipe "wel_station::increase_shared_memory"
 
 run_unless_marker_file_exists("postgres") do
 

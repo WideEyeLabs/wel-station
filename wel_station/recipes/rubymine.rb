@@ -1,4 +1,4 @@
-include_recipe "wel-station::java"
+include_recipe "wel_station::java"
 
 dmg_package "RubyMine" do
   source "http://download-ln.jetbrains.com/ruby/RubyMine-5.4.1.dmg"

@@ -2,7 +2,7 @@ define :rbenv_ruby_install do
   ruby_version = params[:version] || params[:name]
   options = params[:options] || {}
 
-  include_recipe "wel-station::rbenv"
+  include_recipe "wel_station::rbenv"
 
   install_cmd = "#{RBENV_COMMAND} install #{ruby_version} #{options[:command_line_options]}"
 

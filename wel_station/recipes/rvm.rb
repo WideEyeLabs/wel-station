@@ -1,5 +1,5 @@
-include_recipe "wel-station::git"
-include_recipe "wel-station::apple_gcc42"
+include_recipe "wel_station::git"
+include_recipe "wel_station::apple_gcc42"
 
 rvm_git_revision_hash  = version_string_for("rvm")
 

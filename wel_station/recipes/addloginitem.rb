@@ -1,4 +1,4 @@
-include_recipe "wel-station::user_owns_usr_local"
+include_recipe "wel_station::user_owns_usr_local"
 
 addloginitem_path="/usr/local/bin/addloginitem"
 

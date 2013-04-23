@@ -1,4 +1,4 @@
-# Pivotal Workstation [![Build Status](https://secure.travis-ci.org/pivotal/wel-station.png)](http://travis-ci.org/pivotal/wel-station)
+# Pivotal Workstation [![Build Status](https://secure.travis-ci.org/pivotal/wel_station.png)](http://travis-ci.org/pivotal/wel_station)
 
 A repeatable, documented, decomposable, shareable and iterative OSX (ruby) development environment
 
@@ -14,15 +14,15 @@ Installation
 cat > ~/Cheffile <<EOF
 site 'http://community.opscode.com/api/v1'
 
-cookbook 'wel-station',
-  :git => 'git://github.com/pivotal/wel-station.git'
+cookbook 'wel_station',
+  :git => 'git://github.com/pivotal/wel_station.git'
 EOF
 
 cat > ~/soloistrc <<EOF
 recipes:
-- wel-station::meta_osx_base
-- wel-station::meta_osx_development
-- wel-station::meta_ruby_development
+- wel_station::meta_osx_base
+- wel_station::meta_osx_development
+- wel_station::meta_ruby_development
 EOF
 sudo gem install soloist
 soloist
@@ -37,8 +37,8 @@ For instance, you might want to install only Chrome and Sublime Text. You can ch
 
 ```yaml
 recipes:
-- wel-station::chrome
-- wel-station::sublime_text
+- wel_station::chrome
+- wel_station::sublime_text
 ```
 
 Alternately, you might like to change the people and company associated with your `.pairs` file. To do this simply set the appropriate `node_attributes` in your `soloistrc`:
@@ -71,7 +71,7 @@ There are two online tools you can use to generate `soloistrc` files:
 
 Background
 ----------
-Traditionally, Pivotal Labs relied on imaging workstations from a gold master image which was updated as time allowed.  Pivotal Workstation creates a development environment with almost no effort.  See the [recipes folder](https://github.com/pivotal/wel-station/tree/master/recipes) for a complete list of possible recipes for your `~/soloistrc` file.
+Traditionally, Pivotal Labs relied on imaging workstations from a gold master image which was updated as time allowed.  Pivotal Workstation creates a development environment with almost no effort.  See the [recipes folder](https://github.com/pivotal/wel_station/tree/master/recipes) for a complete list of possible recipes for your `~/soloistrc` file.
 
 Many recipes require [homebrew](https://github.com/mxcl/homebrew).  Other recipes will overwrite your `.bash_profile`.  `chef-solo` runs as root and may make system-wide changes.
 
@@ -112,4 +112,4 @@ Thanks
 
 Copyright
 ---------
-Copyright &copy; Pivotal Labs. See [LICENSE.txt](https://raw.github.com/pivotal/wel-station/master/LICENSE.txt) for details.
+Copyright &copy; Pivotal Labs. See [LICENSE.txt](https://raw.github.com/pivotal/wel_station/master/LICENSE.txt) for details.

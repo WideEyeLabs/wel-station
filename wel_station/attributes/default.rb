@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-default['wel-station']['base_dir'] = "/Applications"
-default['wel-station']['cache_dir'] = Chef::Config['file_cache_path']
+default['wel_station']['base_dir'] = "/Applications"
+default['wel_station']['cache_dir'] = Chef::Config['file_cache_path']

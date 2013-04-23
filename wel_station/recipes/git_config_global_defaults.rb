@@ -1,4 +1,4 @@
-include_recipe "wel-station::git"
+include_recipe "wel_station::git"
 wel_station_bash_it_custom_plugin "git-export_editor.bash"
 
 template "#{WS_HOME}/.gitignore_global" do

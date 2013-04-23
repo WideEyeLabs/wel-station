@@ -17,7 +17,7 @@ describe "Recipes" do
       vm.system!('cd cookbooks; git clone https://github.com/opscode-cookbooks/dmg')
       vm.system!('( gem list | grep "soloist " ) || sudo gem install soloist')
       vm.system!('printf "cookbook_paths:\n- cookbooks/\n" > soloistrc')
-      vm.system!("soloist wel-station::#{recipe}")
+      vm.system!("soloist wel_station::#{recipe}")
     end
   end
 end

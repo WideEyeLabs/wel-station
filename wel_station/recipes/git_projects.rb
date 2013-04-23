@@ -16,7 +16,7 @@
 #       - git@github.com:github/hubot.git
 #
 
-include_recipe "wel-station::workspace_directory"
+include_recipe "wel_station::workspace_directory"
 
 node['git_projects'].each do |repo_name, repo_address, repo_dir|
 

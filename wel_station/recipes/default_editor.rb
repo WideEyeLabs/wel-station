@@ -1,4 +1,4 @@
-include_recipe "wel-station::textmate"
+include_recipe "wel_station::textmate"
 
 # This sets TextMate to be the default editor for
 # .xml, .rb, .erb, .plain-text, .yml, .yaml

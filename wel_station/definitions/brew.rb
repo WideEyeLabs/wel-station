@@ -1,5 +1,5 @@
 define :brew, :action => :install do
-  include_recipe "wel-station::homebrew"
+  include_recipe "wel_station::homebrew"
   package = params[:package] || params[:name]
 
   case params[:action]

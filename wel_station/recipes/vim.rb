@@ -1,7 +1,7 @@
 # Acknowledgements: Some configuration source from
 # https://github.com/Casecommons/casecommons_workstation
 
-include_recipe "wel-station::homebrew"
+include_recipe "wel_station::homebrew"
 
 execute "install macvim and use its vim as system vim" do
   command "brew install macvim --override-system-vim"

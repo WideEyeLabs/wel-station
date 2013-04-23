@@ -1,6 +1,6 @@
 # FIXME: This should be re-factored once package.rb has a mechanism
 # for installing pkg files without mounting a dmg
-include_recipe "wel-station::addloginitem"
+include_recipe "wel_station::addloginitem"
 
 app_path="/Applications/Flycut.app"
 

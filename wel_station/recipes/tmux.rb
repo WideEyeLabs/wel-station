@@ -1,4 +1,4 @@
-include_recipe "wel-station::git"
+include_recipe "wel_station::git"
 brew "tmux"
 
 remote_file "#{WS_HOME}/.tmux.conf" do

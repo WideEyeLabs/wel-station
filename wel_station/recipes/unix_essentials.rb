@@ -1,6 +1,6 @@
-include_recipe "wel-station::ack"
-include_recipe "wel-station::tmux"
-include_recipe "wel-station::xquartz"
+include_recipe "wel_station::ack"
+include_recipe "wel_station::tmux"
+include_recipe "wel_station::xquartz"
 
 brew "watch"
 brew "ssh-copy-id"

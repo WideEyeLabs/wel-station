@@ -1,4 +1,4 @@
-include_recipe "wel-station::git"
+include_recipe "wel_station::git"
 
 ::RBENV_HOME = "#{WS_HOME}/.rbenv"
 ::RBENV_COMMAND = "/usr/local/bin/rbenv"

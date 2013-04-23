@@ -1,4 +1,4 @@
-include_recipe "wel-station::user_owns_usr_local"
+include_recipe "wel_station::user_owns_usr_local"
 
 dmg_package "Sublime Text 2" do
   dmg_name "Sublime%20Text%202.0.1"
@@ -19,7 +19,7 @@ recursive_directories sublime_user_path do
 end
 
 node["sublime_text_packages"].each do |package|
-  wel-station_sublime_package package["name"] do
+  wel_station_sublime_package package["name"] do
     source package["source"]
     destination File.join(sublime_package_path)
     owner WS_USER

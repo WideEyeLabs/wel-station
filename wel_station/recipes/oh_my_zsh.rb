@@ -1,4 +1,4 @@
-include_recipe "wel-station::git"
+include_recipe "wel_station::git"
 
 execute "oh my zsh install" do
   command "curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh"

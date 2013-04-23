@@ -1,4 +1,4 @@
-include_recipe "wel-station::addloginitem"
+include_recipe "wel_station::addloginitem"
 
 app_path="/Applications/CCMenu.app"
 

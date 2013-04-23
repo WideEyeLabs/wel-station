@@ -1,4 +1,4 @@
-include_recipe "wel-station::enable_assistive_devices"
+include_recipe "wel_station::enable_assistive_devices"
 
 ruby_block "Remove Expose Keyboard Shortcuts" do
   block do

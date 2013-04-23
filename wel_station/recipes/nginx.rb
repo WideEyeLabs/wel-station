@@ -1,5 +1,5 @@
-include_recipe "wel-station::homebrew"
-include_recipe "wel-station::ssl_certificate"
+include_recipe "wel_station::homebrew"
+include_recipe "wel_station::ssl_certificate"
 
 run_unless_marker_file_exists("nginx") do
 

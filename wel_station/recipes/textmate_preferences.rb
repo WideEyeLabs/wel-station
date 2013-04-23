@@ -1,4 +1,4 @@
-include_recipe "wel-station::textmate"
+include_recipe "wel_station::textmate"
 
 osx_defaults "set save on losing focus" do
   domain '~/Library/Preferences/com.macromates.textmate'

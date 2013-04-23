@@ -1,4 +1,4 @@
-include_recipe "wel-station::homebrew"
+include_recipe "wel_station::homebrew"
 
 unless brew_installed? "redis"
   brew "redis"

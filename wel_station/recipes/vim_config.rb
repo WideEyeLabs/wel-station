@@ -1,12 +1,12 @@
 # Acknowledgements: Some configuration source from
 # https://github.com/Casecommons/casecommons_workstation
 
-include_recipe "wel-station::vim"
-include_recipe "wel-station::ack"
-include_recipe "wel-station::git"
-include_recipe "wel-station::tmux"
+include_recipe "wel_station::vim"
+include_recipe "wel_station::ack"
+include_recipe "wel_station::git"
+include_recipe "wel_station::tmux"
 
-ruby_block "ensure wel-station can manage #{node["vim_home"]}" do
+ruby_block "ensure wel_station can manage #{node["vim_home"]}" do
   block do
     missing = "test ! -d #{node["vim_home"]}"
     present = "cd #{node["vim_home"]}"
