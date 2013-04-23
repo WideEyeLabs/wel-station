@@ -1,4 +1,4 @@
-name             'sprout-osx-apps'
+name             'wel-osx-apps'
 maintainer       'Pivotal Labs'
 maintainer_email 'accounts@pivotallabs.com'
 license          'MIT'
