@@ -8,7 +8,8 @@ class FusionHelper
   end
 
   def vmware_vmx
-    "/Users/pivotal/Documents/pivotal-workstation-ci.vmwarevm/pivotal-workstation-ci.vmx"
+    # "/Users/pivotal/Documents/pivotal-workstation-ci.vmwarevm/pivotal-workstation-ci.vmx"
+    ""
   end
 
   def start_vm
