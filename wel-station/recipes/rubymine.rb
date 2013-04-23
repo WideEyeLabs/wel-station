@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::java"
+include_recipe "wel-station::java"
 
 dmg_package "RubyMine" do
   source "http://download-ln.jetbrains.com/ruby/RubyMine-5.4.1.dmg"

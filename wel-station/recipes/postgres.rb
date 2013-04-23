@@ -1,5 +1,5 @@
-include_recipe "pivotal_workstation::homebrew"
-include_recipe "pivotal_workstation::increase_shared_memory"
+include_recipe "wel-station::homebrew"
+include_recipe "wel-station::increase_shared_memory"
 
 run_unless_marker_file_exists("postgres") do
 

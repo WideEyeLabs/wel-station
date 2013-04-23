@@ -1,5 +1,5 @@
 # Usage:
-# pivotal_workstation_bash_it_enable "plugins/foo"
+# wel-station_bash_it_enable "plugins/foo"
 
 action :create do
   type, name  = new_resource.name.split("/")

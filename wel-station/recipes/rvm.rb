@@ -1,12 +1,12 @@
-include_recipe "pivotal_workstation::git"
-include_recipe "pivotal_workstation::apple_gcc42"
+include_recipe "wel-station::git"
+include_recipe "wel-station::apple_gcc42"
 
 rvm_git_revision_hash  = version_string_for("rvm")
 
 ::RVM_HOME = "#{WS_HOME}/.rvm"
 ::RVM_COMMAND = "#{::RVM_HOME}/bin/rvm"
 
-pivotal_workstation_bash_it_enable_feature "plugins/rvm"
+wel-station_bash_it_enable_feature "plugins/rvm"
 
 run_unless_marker_file_exists(marker_version_string_for("rvm")) do
   recursive_directories [RVM_HOME, 'src', 'rvm'] do

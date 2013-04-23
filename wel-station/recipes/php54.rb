@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::homebrew"
+include_recipe "wel-station::homebrew"
 
 execute "tap the josegonzalez repo" do
     command "brew tap josegonzalez/php"

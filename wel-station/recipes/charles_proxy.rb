@@ -32,7 +32,7 @@ end
 
 template node["charles_proxy"]["config_path"] do
   source "com.xk72.charles.config.erb"
-  cookbook 'pivotal_workstation'
+  cookbook 'wel-station'
   owner WS_USER
   mode "0777"
   not_if { File.exists?(node["charles_proxy"]["config_path"]) || node["charles_proxy"]["license_key"] == nil || node["charles_proxy"]["license_name"] == nil }

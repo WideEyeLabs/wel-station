@@ -1,7 +1,7 @@
 # Acknowledgements: Some configuration source from
 # https://github.com/Casecommons/casecommons_workstation
 
-include_recipe "pivotal_workstation::homebrew"
+include_recipe "wel-station::homebrew"
 
 execute "install macvim and use its vim as system vim" do
   command "brew install macvim --override-system-vim"
@@ -22,4 +22,4 @@ execute "test to see if macvim link worked" do
   command "test -L /Applications/MacVim.app"
 end
 
-pivotal_workstation_bash_it_custom_plugin "vim-alias_vi_to_minimal_vim.bash"
+wel-station_bash_it_custom_plugin "vim-alias_vi_to_minimal_vim.bash"

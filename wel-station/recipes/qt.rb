@@ -1,3 +1,3 @@
-include_recipe "pivotal_workstation::xquartz"
+include_recipe "wel-station::xquartz"
 
 brew "qt"

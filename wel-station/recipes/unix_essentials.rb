@@ -1,6 +1,6 @@
-include_recipe "pivotal_workstation::ack"
-include_recipe "pivotal_workstation::tmux"
-include_recipe "pivotal_workstation::xquartz"
+include_recipe "wel-station::ack"
+include_recipe "wel-station::tmux"
+include_recipe "wel-station::xquartz"
 
 brew "watch"
 brew "ssh-copy-id"

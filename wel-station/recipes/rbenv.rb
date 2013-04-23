@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::git"
+include_recipe "wel-station::git"
 
 ::RBENV_HOME = "#{WS_HOME}/.rbenv"
 ::RBENV_COMMAND = "/usr/local/bin/rbenv"
@@ -6,7 +6,7 @@ include_recipe "pivotal_workstation::git"
 brew "rbenv"
 brew "ruby-build"
 
-pivotal_workstation_bash_it_enable_feature "plugins/rbenv"
+wel-station_bash_it_enable_feature "plugins/rbenv"
 
 node["rbenv"]["rubies"].each do |version, options|
   rbenv_ruby_install version do

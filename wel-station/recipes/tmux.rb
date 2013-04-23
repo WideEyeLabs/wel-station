@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::git"
+include_recipe "wel-station::git"
 brew "tmux"
 
 remote_file "#{WS_HOME}/.tmux.conf" do

@@ -1,4 +1,4 @@
-pivotal_workstation_bash_it_custom_plugin "gem_setup-warn_on_sudo.bash"
+wel-station_bash_it_custom_plugin "gem_setup-warn_on_sudo.bash"
 
 file "/etc/gemrc" do
   owner "root"

@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::homebrew"
+include_recipe "wel-station::homebrew"
 
 unless brew_installed? "redis"
   brew "redis"

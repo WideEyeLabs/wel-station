@@ -1,12 +1,12 @@
 # Acknowledgements: Some configuration source from
 # https://github.com/Casecommons/casecommons_workstation
 
-include_recipe "pivotal_workstation::vim"
-include_recipe "pivotal_workstation::ack"
-include_recipe "pivotal_workstation::git"
-include_recipe "pivotal_workstation::tmux"
+include_recipe "wel-station::vim"
+include_recipe "wel-station::ack"
+include_recipe "wel-station::git"
+include_recipe "wel-station::tmux"
 
-ruby_block "ensure pivotal_workstation can manage #{node["vim_home"]}" do
+ruby_block "ensure wel-station can manage #{node["vim_home"]}" do
   block do
     missing = "test ! -d #{node["vim_home"]}"
     present = "cd #{node["vim_home"]}"
@@ -62,4 +62,4 @@ file "#{WS_HOME}/.vimrc.local" do
   not_if { File.exists?("#{WS_HOME}/.vimrc.local") }
 end
 
-pivotal_workstation_bash_it_custom_plugin "vim-source_tmux_config.bash"
+wel-station_bash_it_custom_plugin "vim-source_tmux_config.bash"

@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::user_owns_usr_local"
+include_recipe "wel-station::user_owns_usr_local"
 
 GITX_PATH = "/Applications/GitX.app"
 GITX_LINK = "/usr/local/bin/gitx"
