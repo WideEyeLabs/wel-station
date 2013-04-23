@@ -1,2 +1,2 @@
-Chef::Log.warn "Please use sprout-osx-apps::chrome"
-include_recipe 'sprout-osx-apps::chrome'
+Chef::Log.warn "Please use wel-osx-apps::chrome"
+include_recipe 'wel-osx-apps::chrome'

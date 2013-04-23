@@ -11,6 +11,6 @@ Cookbooks
 
 | Cookbook            | Description                                            |
 | ------------------- | -------------------------------------------------------|
-| sprout-osx-apps     | Commonly used OS X Mountain Lion applications          |
-| sprout-osx-settings | Various settings & preferences for OS X Mountain Lion. |
+| wel-osx-apps     | Commonly used OS X Mountain Lion applications          |
+| wel-osx-settings | Various settings & preferences for OS X Mountain Lion. |
 | wel-station | DEPRECATED in favor of sprout-*                        |

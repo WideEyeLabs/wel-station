@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: sprout-osx-apps
+# Cookbook Name:: wel-osx-apps
 # Recipe:: default
 #
 # Copyright 2013, Pivotal Labs

@@ -1,2 +1,2 @@
-Chef::Log.warn "Please use sprout-osx-apps::firefox_aurora"
-include_recipe 'sprout-osx-apps::firefox_aurora'
+Chef::Log.warn "Please use wel-osx-apps::firefox_aurora"
+include_recipe 'wel-osx-apps::firefox_aurora'

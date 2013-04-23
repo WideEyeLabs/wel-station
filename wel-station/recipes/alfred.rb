@@ -1,2 +1,2 @@
-Chef::Log.warn "Please use sprout-osx-apps::alfred"
-include_recipe 'sprout-osx-apps::alfred'
+Chef::Log.warn "Please use wel-osx-apps::alfred"
+include_recipe 'wel-osx-apps::alfred'

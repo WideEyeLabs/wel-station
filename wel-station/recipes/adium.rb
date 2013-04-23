@@ -1,2 +1,2 @@
-Chef::Log.warn "Please use sprout-osx-apps::adium"
-include_recipe 'sprout-osx-apps::adium'
+Chef::Log.warn "Please use wel-osx-apps::adium"
+include_recipe 'wel-osx-apps::adium'

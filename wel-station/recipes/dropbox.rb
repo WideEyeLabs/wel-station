@@ -1,2 +1,2 @@
-Chef::Log.warn "Please use sprout-osx-apps::dropbox"
-include_recipe 'sprout-osx-apps::dropbox'
+Chef::Log.warn "Please use wel-osx-apps::dropbox"
+include_recipe 'wel-osx-apps::dropbox'

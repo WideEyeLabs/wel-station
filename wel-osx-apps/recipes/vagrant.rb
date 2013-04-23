@@ -1,4 +1,4 @@
-include_recipe "sprout-osx-apps::virtualbox"
+include_recipe "wel-osx-apps::virtualbox"
 
 dmg_package "Vagrant" do
   source "http://files.vagrantup.com/packages/be0bc66efc0c5919e92d8b79e973d9911f2a511f/Vagrant-1.0.5.dmg"
