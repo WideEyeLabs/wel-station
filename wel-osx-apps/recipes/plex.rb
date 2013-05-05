@@ -7,7 +7,7 @@ unless File.exists?("/Applications/Plex.app")
   end
  
   execute "unzip plex" do
-    command "unzip #{Chef::Config[:file_cache_path]}/plex.zip -d #{Chef::Config[:file_cache_path]}/"
+    command "unzip -o #{Chef::Config[:file_cache_path]}/plex.zip -d #{Chef::Config[:file_cache_path]}/"
     user WS_USER
   end
  
