@@ -7,7 +7,7 @@ unless File.exists?("/Applications/Cloud.app")
   end
  
   execute "unzip cloud" do
-    command "unzip #{Chef::Config[:file_cache_path]}/cloud.zip -d #{Chef::Config[:file_cache_path]}/"
+    command "unzip -o #{Chef::Config[:file_cache_path]}/cloud.zip -d #{Chef::Config[:file_cache_path]}/"
     user WS_USER
   end
  
