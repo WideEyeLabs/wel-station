@@ -12,7 +12,7 @@ unless File.exists?("/Applications/Plex.app")
   end
  
   execute "copy plex to /Applications" do
-    command "mv #{Chef::Config[:file_cache_path]}/Cloud.app #{Regexp.escape("/Applications/Cloud.app")}"
+    command "mv #{Chef::Config[:file_cache_path]}/Plex.app #{Regexp.escape("/Applications/Plex.app")}"
     user WS_USER
     group "admin"
   end
