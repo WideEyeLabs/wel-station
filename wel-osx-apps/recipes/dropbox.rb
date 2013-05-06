@@ -1,7 +1,7 @@
 dmg_package "Dropbox" do
   volumes_dir "Dropbox Installer"
-  source "https://www.dropbox.com/download?plat=mac"
-  checksum "1169d604ed3db8b15449753f7cf9c5af2b86afefcf598231d44dc29551c4a489"
+  source "https://dl.dropboxusercontent.com/u/17/Dropbox%202.0.8.dmg"
+  checksum "9c3911abbab2dd70f67f8a81ce082cbdeeeff2dc359006189785a09dadaaa654"
   action :install
   owner WS_USER
 end
