@@ -1,3 +1,3 @@
-include_recipe "wel_station::xquartz"
+include_recipe "wel-osx-apps::xquartz"
 
 brew "qt"
