@@ -12,7 +12,7 @@ unless File.exists?("/Applications/Spotify.app")
   end
 
   execute "copy spotify to /Applications" do
-    command "mv #{Chef::Config[:file_cache_path]}/Spotify.app #{Regexp.escape("/Applications/Spotify.app")}"
+    command "./#{Chef::Config[:file_cache_path]}/Install\ Spotify.app/Contents/MacOS/Install\ Spotify"
     user WS_USER
     group "admin"
   end
