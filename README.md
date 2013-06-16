@@ -6,6 +6,9 @@ sprout
 Chef cookbooks to configure an OS X workstation. The easiest way 
 to get started with wel-station is by using [wel-wrap](https://github.com/WideEyeLabs/wel-wrap).
 
+This project is a fork of sprout-wrap from Pivotal Labs. Without their
+awesome work, this project wouldn't exist.
+
 Cookbooks
 -------
 
