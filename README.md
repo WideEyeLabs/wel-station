@@ -1,4 +1,4 @@
-sprout
+wel-station
 ======
 
 [![Build Status](https://travis-ci.org/WideEyeLabs/wel-station.png?branch=master)](https://travis-ci.org/WideEyeLabs/wel-station)
