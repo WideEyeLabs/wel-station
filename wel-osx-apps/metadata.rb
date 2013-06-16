@@ -1,6 +1,6 @@
 name             'wel-osx-apps'
-maintainer       'Pivotal Labs'
-maintainer_email 'accounts@pivotallabs.com'
+maintainer       'Wide Eye Labs'
+maintainer_email 'chris@wideeyelabs.com'
 license          'MIT'
 description      'Installs/Configures wel-osx-apps'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))

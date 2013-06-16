@@ -1,6 +1,6 @@
 name 							'wel_station'
-maintainer        "Pivotal Labs"
-maintainer_email  "accounts@pivotallabs.com"
+maintainer        "Wide Eye Labs"
+maintainer_email  "chris@wideeyelabs.com"
 license           "MIT"
 description       "Configure frequently-used tools for an OSX workstation"
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))

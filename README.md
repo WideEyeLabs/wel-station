@@ -1,16 +1,16 @@
 sprout
 ======
 
-[![Build Status](https://travis-ci.org/pivotal-sprout/sprout.png?branch=master)](https://travis-ci.org/pivotal-sprout/sprout)
+[![Build Status](https://travis-ci.org/WideEyeLabs/wel-station.png?branch=master)](https://travis-ci.org/WideEyeLabs/wel-station)
 
-Chef cookbooks to configure an OS X Mountain Lion workstation. Successor to wel_station. The easiest way 
-to get started with sprout is by using [sprout-wrap](https://github.com/pivotal-sprout/sprout-wrap).
+Chef cookbooks to configure an OS X workstation. The easiest way 
+to get started with wel-station is by using [wel-wrap](https://github.com/WideEyeLabs/wel-wrap).
 
 Cookbooks
 -------
 
 | Cookbook            | Description                                            |
 | ------------------- | -------------------------------------------------------|
-| wel-osx-apps     | Commonly used OS X Mountain Lion applications          |
-| wel-osx-settings | Various settings & preferences for OS X Mountain Lion. |
-| wel_station | DEPRECATED in favor of sprout-*                        |
+| wel-osx-apps        | Commonly used OS X  applications                       |
+| wel-osx-settings    | Various settings & preferences for OS X                |
+| wel_station         | DEPRECATED in favor of wel-*                           |

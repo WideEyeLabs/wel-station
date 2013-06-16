@@ -1,3 +1,3 @@
 wel-osx-settings
 ===================
-Various settings & preferences for OS X Mountain Lion.
+Various settings & preferences for OS X.

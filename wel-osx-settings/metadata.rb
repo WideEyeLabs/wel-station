@@ -1,6 +1,6 @@
 name             'wel-osx-settings'
-maintainer       'Pivotal Labs'
-maintainer_email 'accounts@pivotallabs.com'
+maintainer       'Wide Eye Labs'
+maintainer_email 'chris@wideeyelabs.com'
 license          'MIT'
 description      'Recipes to configure various aspects of OS X'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
